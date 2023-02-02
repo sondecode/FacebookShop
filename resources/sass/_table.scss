@@ -1,0 +1,27 @@
+.table {
+    background-color: white !important;
+    --bs-table-accent-bg: rgba(0, 0, 0, 0);
+}
+
+div.dataTables_wrapper div.dataTables_length select {
+    padding-right: 1.5rem;
+}
+
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #ccc;
+}
+
+.table {
+    .delete,
+    .update {
+        width: 35px;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid #ccc;
+        color: black;
+        font-size: 1rem;
+    }
+}

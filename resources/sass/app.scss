@@ -1,0 +1,17 @@
+// Variables
+@import 'variables';
+@import '~@fortawesome/fontawesome-free/scss/fontawesome';
+@import '~@fortawesome/fontawesome-free/scss/brands';
+@import '~@fortawesome/fontawesome-free/scss/regular';
+@import '~@fortawesome/fontawesome-free/scss/solid';
+@import 'datatables.net-bs4/css/dataTables.bootstrap4.min.css';
+@import '~admin-lte/build/scss/adminlte';
+@import 'cropperjs/src/css/cropper.scss';
+// or scss:
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+//custom scss
+@import 'common_layout';
+@import 'table';
+@import 'cropper';
+@import 'subjx/dist/style/subjx.css';
